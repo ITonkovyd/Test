@@ -5,6 +5,7 @@ const UserMenu = () => {
   const userEmail = localStorage.getItem("email");
 
   const handleLogout = async () => {
+    // костиль для розлогінювання юзера
     localStorage.clear();
     window.location.reload();
   };

@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+Тестове завдання
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Серверна частина (Node.js)
+Створення сервера:
+-Створити простий веб-сервер на Node.js, який слухає на порту 3000.
+API ендпоїнти:
+-Створіть API ендпоїнт /api/users, який повертає список користувачів у форматі JSON.
+-Сервер повинен вміти обробляти запити GET та повертати масив об'єктів користувачів.
+База даних:
+-Використайте простий масив у пам'яті як базу даних для користувачів.
+-Заповніть масив кількома прикладовими користувачами (ім'я, електронна пошта, тощо).
+Аутентифікація (додатково):
+-Реалізуйте механізм аутентифікації. Додайте ендпоїнт /api/login, який приймає електронну пошту та пароль, порівнює їх з даними у базі даних та повертає стан успішної аутентифікації.
 
-## Available Scripts
+Клієнтська частина (React)
+Список користувачів:
+-Створіть React компонент, який відображає список користувачів, отриманих з сервера /api/users.
+Сторінка логіну:
+-Створіть сторінку логіну, яка має форму для введення електронної пошти та паролю.
+-При натисканні кнопки логіну, відправте запит на сервер /api/login та обробіть токен аутентифікації.
+Приватна сторінка (додатково, якщо буде бажання):
+-Створіть сторінку, доступну лише після успішної аутентифікації.
+-При спробі доступу до цієї сторінки без аутентифікації перенаправте користувача на сторінку логіну.
+Стилізація (додатково, якщо буде бажання):
+-Додайте стилі за допомогою CSS або будь-якого іншого інструменту стилізації.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Загальні вказівки:
+-Використовуйте сучасні стандарти та практики у своєму коді.
+-Коментарі та документація повинні бути присутніми та зрозумілими.
+-Використовуйте npm або yarn для управління залежностями та скриптами.
+-Код повинен бути завершеним та готовим для використання.
+-Це завдання має за мету перевірити навички у роботі з Node.js та React, а також вміння створювати простий механізм аутентифікації. Не соромся додавати власні ідеї або поліпшення до завдання. Успіхів!
